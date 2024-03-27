@@ -1,0 +1,25 @@
+/* Navi.css */
+.navi-container {
+    width: 100%; /* Genişliği tam sayfa genişliği kadar olacak şekilde ayarlayın */
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: 0 auto; /* Sayfanın ortasına hizalar */
+}
+
+.navi {
+    background-image: url("https://i.imgur.com/eBpYk96.jpeg");
+    background-size: cover; /* Resmi kaplama modunda sığdırır */
+    background-position: center; /* Resmi merkeze hizalar */
+    background-repeat: no-repeat; /* Tekrar etmemesini sağlar */
+    background-color: rgba(0, 0, 0, 0.5); /* Arkaplan rengi: siyah, %50 opaklık */
+    color: white;
+    height: 60px; /* Navi yüksekliği */
+    display: flex;
+    align-items: center; /* Metni dikey olarak hizalar */
+    padding: 30px; /* İçeriği kenarlardan boşluk bırakmak için */
+}
+
+.ui.avatar.image {
+    width: 130px; /* Resmin genişliğini ayarlayın */
+    height: auto; /* Otomatik yükseklik */
+    margin-right: 1200px; /* Avatar resmi ile diğer içerik arasındaki boşluğu ayarlamak için */
+}

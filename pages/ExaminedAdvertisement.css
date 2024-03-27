@@ -1,0 +1,45 @@
+/* Ana bileşen container'ı */
+.container {
+    /* İçeriği yatay olarak sırala */
+    display: flex;
+    /* İçeriği alt alta sıralama */
+    flex-direction: column;
+    /* İçeriği sol üst köşeye hizala */
+    justify-content: flex-start;
+    /* İçeriği ortala */
+    align-items: center;
+}
+
+/* İş başlığı */
+.job-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Şirket adı */
+.company {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Detaylar */
+.details {
+    margin-top: 20px;
+}
+
+/* Başvuru butonu */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

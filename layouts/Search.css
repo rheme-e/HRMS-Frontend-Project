@@ -1,0 +1,52 @@
+.ui.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%; /* Sayfa genişliği kadar genişletir */
+    padding: 40px; /* İçeriğin kenarlardan boşluk bırakmasını sağlar */
+    box-sizing: border-box; /* Padding'in genişliği dahil olması için */
+    background-color: #CCCCCC; /* Açık gri arka plan rengi */
+    min-height: 100vh; /* Bileşenin minimum yüksekliği pencerenin yüksekliği kadar */
+}
+
+.ui.form .field {
+    margin-bottom: 15px; /* Label ve comboBoxlar arasındaki İstediğiniz boşluğu ayarlayabilirsiniz */
+}
+
+.ui.form label {
+    display: block;
+    text-align: center;
+}
+
+.ui.form select {
+    width: 100%;
+    margin-top: -5px; /* Combobox ile label arasındaki boşluğu ayarlayabilirsiniz */
+    margin-bottom: 10px; /* Combobox ile diğer alan arasındaki boşluğu ayarlayabilirsiniz */
+}
+
+.ui.form button {
+    margin-top: 20px; /* İstediğiniz boşluğu ayarlayabilirsiniz */
+    width: 100%; /* Butonun genişliğini ayarlar */
+}
+
+.ui.button {
+    background-color: #2C1158;
+    color: white;
+    font-size: 1rem; /* Buton font büyüklüğü */
+    padding: 0.5rem 1rem; /* Buton içerisindeki içeriğin paddingi */
+    height: 2.2rem; /* Buton yüksekliği */
+}
+
+.field label {
+    font-size: 0.8rem; /* Label font büyüklüğü */
+    height: 1.5rem;
+}
+
+
+
+.ui.dropdown {
+    font-size: 0.8rem; /* Combobox font büyüklüğü */
+    padding: 0.2rem 2rem; /* Combobox içerisindeki içeriğin paddingi */
+    height: 2rem; /* Combobox yüksekliği */
+}

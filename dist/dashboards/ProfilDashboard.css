@@ -1,0 +1,14 @@
+/* Özelleştirilmiş Profil dropdown menüsü için CSS */
+.dropdown-menu.profile-menu {
+    background-color: #f8f9fa; /* Dropdown menü arka plan rengi */
+    border: 1px solid #ced4da; /* Dropdown menü kenarlık rengi */
+}
+
+.dropdown-menu.profile-menu .dropdown-item {
+    color: #343a40; /* Dropdown öğe metin rengi */
+}
+
+.dropdown-menu.profile-menu .dropdown-item:hover,
+.dropdown-menu.profile-menu .dropdown-item:focus {
+    background-color: #e9ecef; /* Üzerine gelindiğinde ve odaklandığında dropdown öğesi arka plan rengi */
+}

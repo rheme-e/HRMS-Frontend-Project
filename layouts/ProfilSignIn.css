@@ -1,0 +1,37 @@
+.dropdown-toggle {
+    background-color: #330066; /* Butonun arka plan rengi */
+    border: none; /* Buton kenarlığını kaldırma */
+    padding: 10px 20px; /* Buton içeriğinin kenar boşlukları */
+    font-size: 16px; /* Buton metin boyutu */
+    font-weight: bold; /* Buton metin kalınlığı */
+    color: #fff; /* Buton metin rengi */
+}
+
+
+.dropdown-menu {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    display: block;
+    padding: 8px 12px;
+    color: #212529;
+    text-decoration: none;
+    clear: both;
+    font-weight: 400;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #16181b;
+    background-color: #f8f9fa;
+}

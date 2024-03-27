@@ -1,0 +1,36 @@
+/* Ana bileşen container'ı */
+.job-advertisement-dashboard-container {
+    /* İçeriği yatay olarak sırala */
+    display: flex;
+    /* İçeriği alt alta sıralama */
+    flex-direction: column;
+    /* İçeriği sol üst köşeye hizala */
+    justify-content: flex-start;
+    /* İçeriği ortala */
+    align-items: center;
+}
+
+/* İçerikleri yan yana yerleştirme */
+.job-advertisement-dashboard-container .row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Arama sütunu */
+.search-col {
+    /* İçeriği ortala */
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+
+/* İş ilanları sütunu */
+.job-advertisements-col {
+    /* İçeriği ortala */
+    display: flex;
+    justify-content: center;
+    flex: 4;
+
+
+}

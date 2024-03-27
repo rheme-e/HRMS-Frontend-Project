@@ -1,0 +1,85 @@
+/* SignInDashboard.css */
+
+.dropdown-menu-container {
+    display: flex; /* İçeriği yatayda hizala */
+    justify-content: center; /* İçeriği yatayda ortala */
+    align-items: center; /* İçeriği dikeyde ortala */
+    flex-direction: column; /* İçeriği dikey olarak sırala */
+    margin-top: 20px; /* Yukarıdan 90px boşluk bırak */
+    padding: 100px; /* Kenarlardan içeriği sarmalama */
+    border-radius: 10px; /* Kenar yuvarlaklığı */
+    background-color: #f8f9fa; /* Arka plan rengi */
+    border: 1px solid #ced4da; /* Kenarlık rengi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölge */
+    max-width: 500px; /* Maksimum genişlik */
+    width: 100%; /* Tam genişlik */
+    box-sizing: border-box; /* Kenarlıkları dahil et */
+    margin: 20px auto; /* Yukarıdan 90px boşluk bırak ve yatayda ortala */
+}
+
+
+
+.dropdown-menu-container form {
+    width: 100%; /* Formun tam genişlik olması */
+    max-width: 400px; /* Maksimum form genişliği */
+}
+
+.dropdown-menu-container .form-group {
+    margin-bottom: 15px; /* Form grubu arasındaki boşluk */
+}
+
+.dropdown-menu-container .form-check {
+    margin-bottom: 5px; /* Form kontrolü arasındaki boşluk */
+}
+
+.dropdown-menu-container .dropdown-divider {
+    margin: 10px 0; /* Ayraç ile diğer içerik arasındaki boşluk */
+}
+
+.dropdown-menu-container .dropdown-item {
+    color: #0056b3; /* Dropdown öğe metin rengi */
+}
+
+.dropdown-menu-container .dropdown-item:hover {
+    background-color: #f8f9fa; /* Üzerine gelindiğinde dropdown öğesi arka plan rengi */
+}
+
+.dropdown-menu-container .btn-primary {
+    font-size: 16px; /* Label yazı fontu boyutu */
+    width: 100%; /* Butonun dropdown menü genişliğine yayılması */
+    background-color: #6f42c1; /* Sign in butonunun arka plan rengi */
+    border-color: #6f42c1; /* Sign in butonunun kenarlık rengi */
+}
+
+.dropdown-menu-container .btn-primary:hover {
+    background-color: #553997; /* Üzerine gelindiğinde Sign in butonunun arka plan rengi */
+    border-color: #553997; /* Üzerine gelindiğinde Sign in butonunun kenarlık rengi */
+}
+
+.form-group {
+    display: flex; /* Flexbox kullanarak labelları ve inputları yatayda hizala */
+    flex-direction: column; /* Labelları ve inputları dikey olarak sırala */
+    margin-bottom: 15px; /* Form grubu arasındaki boşluk */
+}
+
+
+.form-control {
+    font-size: 16px; /* Form elemanı metin fontu boyutu */
+    color: #495057; /* Form elemanı metin rengi */
+}
+
+.form-group label {
+    font-size: 20px; /* Label yazı fontu boyutu */
+    color: #6c757d; /* Label yazı rengi */
+    margin-bottom: 10px; /* Label ile input arasındaki boşluk */
+}
+
+.form-check-label {
+    font-size: 1px; /* Form kontrolü metin fontu boyutu */
+    color: #0056b3; /* Form kontrolü metin rengi */
+    margin-bottom: 10px; /* Form kontrolü metin ile altındaki öğe arasındaki boşluk */
+}
+
+.dropdown-menu-container .dropdown-item {
+    margin-bottom: 30px; /* Dropdown itemler arasındaki mesafe */
+}

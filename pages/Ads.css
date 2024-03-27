@@ -1,0 +1,78 @@
+/* Tablo stilleri */
+.ui.fixed.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    table-layout: fixed; /* Tablonun genişliğini sabit tutar */
+}
+
+/* Tablo içeriğinin ortalandığından emin ol */
+.ui.fixed.table tbody {
+    text-align: center;
+}
+
+/* Başlık satırı stilleri */
+.ui.fixed.table th {
+    background-color: #C5C5C5FF; /* Koyu gri */
+    color: rgba(0, 0, 0, 0.63); /* Metin rengini beyaz yaparak kontrast sağlayın */
+    font-weight: bold;
+    padding: 15px; /* Başlık satırının içeriği ile kenarlar arasındaki boşluk */
+}
+
+/* Veri satırları stilleri */
+.ui.fixed.table td {
+    padding: 20px; /* Veri satırının içeriği ile kenarlar arasındaki boşluk */
+    text-align: center;
+    font-size: 0.85rem;
+    border-bottom: 1px solid #ddd;
+    height: 60px; /* Satır yüksekliğini sabit tutar, istediğiniz değeri ayarlayabilirsiniz */
+    width: 150px; /* Sabit genişlik */
+    white-space: nowrap; /* Metni taşmasını engelle */
+    overflow: hidden; /* Taşan metni gizle */
+    text-overflow: ellipsis; /* Taşan metni "..." ile göster */
+}
+
+/* Çift sayıdaki satırların arka plan rengini değiştirme */
+.ui.fixed.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Satırlara mouse ile geldiğinde arka plan rengini değiştirme */
+.ui.fixed.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Yükleniyor mesajı stilieri */
+.loading-message {
+    font-style: italic;
+    color: #888;
+}
+
+/* İlan bulunamadı mesajı stilleri */
+.no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+/* Ads.css */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

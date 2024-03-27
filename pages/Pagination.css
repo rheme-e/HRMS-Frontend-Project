@@ -1,0 +1,34 @@
+/* Sayfa numaralarını içeren bölgenin stilleri */
+.pagination {
+    display: flex; /* Elemanları yatay olarak hizalar, bu sayede sayfa numaraları yatayda ortalanır */
+    justify-content: center; /* İçerikleri yatayda merkezi hizalar */
+    list-style: none; /* Liste işaretlerini kaldırır */
+    padding: 0; /* Sayfa numarası listesinin içeriğinden gelen varsayılan dolgu miktarını kaldırır */
+}
+
+/* Her bir sayfa numarası öğesinin stilleri */
+.pagination li {
+    display: inline; /* Sayfa numaralarını yatayda yan yana hizalar */
+    margin-right: 5px; /* Sağ kenardan 5 piksel boşluk bırakır */
+}
+
+/* Sayfa numarası bağlantılarının stilleri */
+.pagination li a {
+    color: black; /* Sayfa numaralarının metin rengini belirler */
+    padding: 8px 16px; /* Bağlantıların iç dolgusunu belirler */
+    text-decoration: none; /* Metnin altını çizgiyle işaretlemeyi kaldırır */
+    transition: background-color .3s; /* Arka plan renginin düzenli bir şekilde değişmesini sağlar */
+    border: 1px solid #ddd; /* Kenarlığı oluşturur */
+}
+
+/* Aktif sayfa numarasının stilleri */
+.pagination li a.active {
+    background-color: #4CAF50; /* Aktif sayfa numarasının arka plan rengini belirler */
+    color: white; /* Aktif sayfa numarasının metin rengini belirler */
+    border: 1px solid #4CAF50; /* Kenarlığı oluşturur */
+}
+
+/* Fare üzerine gelindiğinde sayfa numaralarının stilini belirler */
+.pagination li a:hover:not(.active) {
+    background-color: #ddd; /* Fare üzerine gelindiğinde arka plan rengini değiştirir */
+}
